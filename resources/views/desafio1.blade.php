@@ -18,15 +18,8 @@
                 <th>{{$result['ano']}}</th>
             </tbody>
             @endforeach
-            <tbody>
-                <th>{{$processoCrescimento['alturaJuca']}}</th>
-                <th>{{$processoCrescimento['alturaJuca']}}</th>
-                <th>{{$processoCrescimento['alturaJuca']}}</th>
-                <th>{{$processoCrescimento['qtdAno'] + 2021}}</th>
-            </tbody>
     </table>
-    <p>Serão necessarios {{$processoCrescimento['qtdAno']}} anos para que Juca seja maior que Chico.</p> 
-    <p>Juca irá alcançar esse feito quando tiver {{$processoCrescimento['alturaJuca']}}
+    <p class="lead">Serão necessarios {{$processoCrescimento['qtdAno']}} anos para que Juca seja maior que Chico. Juca irá alcançar esse feito em {{$results[1]->ano + $processoCrescimento['qtdAno']}} quando tiver {{$processoCrescimento['alturaJuca']}}
     e Chicho tera {{$processoCrescimento['alturaChico']}}
 </p> 
 

@@ -18,7 +18,7 @@
         <ul class="nav nav-pills">
             <li class="nav-item"><a href="{{route('desafio1')}}" class="nav-link">Desafio 1</a></li>
             <li class="nav-item"><a href="{{route('desafio2')}}" class="nav-link">Desafio 2</a></li>
-            <li class="nav-item"><a href="{{route('desafio3')}}" class="nav-link">Desafio 3</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Desafio 3</a></li>
             <li class="nav-item"><a href="{{route('desafio4')}}" class="nav-link">Desafio 4</a></li>
         </ul>
         </header>

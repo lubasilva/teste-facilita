@@ -23,4 +23,5 @@ Route::get('/desafio1', 'App\Http\Controllers\Desafio1Controller@index')->name('
 Route::get('/desafio2', 'App\Http\Controllers\BibliotecaController@index')->name('desafio2');
 Route::post('/desafio2', 'App\Http\Controllers\BibliotecaController@emprestar')->name('desafio2.post');
 Route::get('/desafio3', 'App\Http\Controllers\WebController@desafio3')->name('desafio3');
-Route::get('/desafio4', 'App\Http\Controllers\WebController@desafio4')->name('desafio4');
+Route::get('/desafio4', 'App\Http\Controllers\Desafio4Controller@index')->name('desafio4');
+Route::post('/desafio4', 'App\Http\Controllers\Desafio4Controller@pega')->name('desafio4.post');
